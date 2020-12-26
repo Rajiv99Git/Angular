@@ -1,0 +1,18 @@
+<h2>Department Details</h2> 
+
+<hr/>
+<div *ngIf="department">
+  <div>
+    <label><b>Department Name: </b></label> {{department.did}}
+  </div>
+  <div>
+    <label><b>Department Name: </b></label> {{department.deptName}}
+  </div>
+  <div>
+    <label><b>Location: </b></label> {{department.deptLocation}}
+  </div> 
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Department List</button><br>
